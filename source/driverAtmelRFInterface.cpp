@@ -837,6 +837,8 @@ void rf_if_interrupt_handler(void)
 {
   uint8_t irq_status;
 
+  platform_interrupts_disabled();
+
   /*Read interrupt flag*/
   irq_status = rf_if_read_register(IRQ_STATUS);
 
@@ -871,6 +873,7 @@ void rf_if_interrupt_handler(void)
   {
     rf_handle_cca_ed_done();
   }
+  platform_interrupts_enabling();
 }
 
 /*
