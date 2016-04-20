@@ -1,4 +1,4 @@
-# Example RF driver for Atmel 802.15.4 transceivers #
+# Example RF driver for Atmel 802.15.4 transceivers #1234
 
 Support for:
  * AT86RF233
