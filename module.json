@@ -1,6 +1,6 @@
 {
   "name": "atmel-rf-driver",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "RF driver for Atmel AT86RF233",
   "keywords": [
     "rf",
@@ -11,7 +11,7 @@
   "dependencies": {
     "nanostack-libservice": "^3.0.0",
     "sal-stack-nanostack": "^4.0.0",
-    "mbed-drivers": "~0.12.0"
+    "mbed-drivers": "^1.0.0"
   },
   "targetDependencies": {}
 }
